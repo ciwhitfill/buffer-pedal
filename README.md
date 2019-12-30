@@ -36,3 +36,19 @@ Noise simulation results in 171.18 nV in the audio range. Even if actual circuit
 
 <img src="./images/output_referred_noise.png" width="600">
 
+## BOM
+|Quantity |Designators |Description         |Value         |Package |Mouser Part #       |
+|:--------|:-----------|:-------------------|:-------------|:-------|:-------------------|
+|3        |R1, R2, R3  |Resistor            |10Mohm, 1/8W  |3.6mm   |594-5063JD10M00FT   |
+|1        |R 5         |Resistor            |330ohms, 1/8W |3.6mm   |603-MFR-12FTF52-330R|
+|1        |R6          |Resistor            |100Kohms, 1/8W|3.6mm   |603-CFR-12JT-52-100K|
+|1        |R7          |Resistor            |4.7Kohms, 1/8W|3.6mm   |603-MFR-12FTF52-4K7 |
+|2        |C1, C2      |Capacitor, polarized|10uF, 16V     |4mm     |647-USW1C100MDD     |
+|1        |C3          |Capacitor, polarized|47uF, 25V     |5mm     |647-UFW1E470MDD     |
+|2        |Q1, Q2      |N-Channel JFET      |J113          |TO-92   |512-J113            |
+|1        |D1          |Diode               |1N4003        |DO-41   |583-1N4003-T        |
+|1        |D2          |LED                 |Green         |5mm     |859-LTL2R3KGD-EM    |
+|2        |J1, J2      |Phone Connector     |1/4" TS       |        |568-NYS229          |
+|1        |J3          |DC Power Connector  |2.1mm         |        |163-R123B-E         |
+
+
