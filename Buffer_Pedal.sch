@@ -275,7 +275,6 @@ F 3 "~" H 6300 3500 50  0001 C CNN
 	1    6300 3500
 	0    1    1    0   
 $EndComp
-Connection ~ 6050 3300
 Wire Wire Line
 	6050 3300 6000 3300
 Wire Wire Line
@@ -355,31 +354,27 @@ F 3 "" H 3700 3950 50  0001 C CNN
 	1    3700 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6050 2900 6050 3300
 $Comp
 L power:GND #PWR0110
 U 1 1 5DF924C2
-P 6000 2700
-F 0 "#PWR0110" H 6000 2450 50  0001 C CNN
-F 1 "GND" V 6005 2572 50  0000 R CNN
-F 2 "" H 6000 2700 50  0001 C CNN
-F 3 "" H 6000 2700 50  0001 C CNN
-	1    6000 2700
-	0    1    1    0   
+P 6250 2750
+F 0 "#PWR0110" H 6250 2500 50  0001 C CNN
+F 1 "GND" V 6255 2622 50  0000 R CNN
+F 2 "" H 6250 2750 50  0001 C CNN
+F 3 "" H 6250 2750 50  0001 C CNN
+	1    6250 2750
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 2700 6050 2700
 $Comp
 L Connector:Barrel_Jack J3
 U 1 1 5DF8E3BD
-P 6350 2800
-F 0 "J3" H 6120 2758 50  0000 R CNN
-F 1 "9V" H 6120 2849 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 6400 2760 50  0001 C CNN
-F 3 "~" H 6400 2760 50  0001 C CNN
-	1    6350 2800
-	-1   0    0    1   
+P 6150 2400
+F 0 "J3" V 5900 2400 50  0000 R CNN
+F 1 "9V" V 5900 2550 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 6200 2360 50  0001 C CNN
+F 3 "~" H 6200 2360 50  0001 C CNN
+	1    6150 2400
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:AudioJack2 J2
@@ -396,4 +391,9 @@ Wire Wire Line
 	6050 3300 6050 3500
 Wire Wire Line
 	5150 4350 5150 4750
+Wire Wire Line
+	6050 2700 6050 3300
+Connection ~ 6050 3300
+Wire Wire Line
+	6250 2750 6250 2700
 $EndSCHEMATC
