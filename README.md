@@ -49,6 +49,6 @@ Noise simulation results in 171.18 nV in the audio range. Even if actual circuit
 |1        |D1          |Diode               |1N4003        |DO-41   |583-1N4003-T        |
 |1        |D2          |LED                 |Green         |5mm     |859-LTL2R3KGD-EM    |
 |2        |J1, J2      |Phone Connector     |1/4" TS       |        |568-NYS229          |
-|1        |J3          |DC Power Connector  |2.1mm         |        |163-R123B-E         |
+|1        |J3          |DC Power Connector  |2.1mm         |        |163-1060-EX         |
 
 
