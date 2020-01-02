@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "JFET Buffer"
 Date "2019-12-12"
-Rev "1"
+Rev "1.1"
 Comp "Chris Whitfill"
 Comment1 ""
 Comment2 ""
@@ -333,31 +333,29 @@ F 3 "" H 3700 3950 50  0001 C CNN
 	1    3700 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6050 2900 6050 3300
 $Comp
 L power:GND #PWR0110
 U 1 1 5DF924C2
-P 6000 2700
-F 0 "#PWR0110" H 6000 2450 50  0001 C CNN
-F 1 "GND" V 6005 2572 50  0000 R CNN
-F 2 "" H 6000 2700 50  0001 C CNN
-F 3 "" H 6000 2700 50  0001 C CNN
-	1    6000 2700
-	0    1    1    0   
+P 6250 2900
+F 0 "#PWR0110" H 6250 2650 50  0001 C CNN
+F 1 "GND" V 6255 2772 50  0000 R CNN
+F 2 "" H 6250 2900 50  0001 C CNN
+F 3 "" H 6250 2900 50  0001 C CNN
+	1    6250 2900
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 2700 6050 2700
+	6250 2900 6250 2850
 $Comp
 L Connector:Barrel_Jack J3
 U 1 1 5DF8E3BD
-P 6350 2800
-F 0 "J3" H 6120 2758 50  0000 R CNN
-F 1 "9V" H 6120 2849 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 6400 2760 50  0001 C CNN
-F 3 "~" H 6400 2760 50  0001 C CNN
-	1    6350 2800
-	-1   0    0    1   
+P 6150 2550
+F 0 "J3" H 5920 2508 50  0000 R CNN
+F 1 "9V" H 5920 2599 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 6200 2510 50  0001 C CNN
+F 3 "~" H 6200 2510 50  0001 C CNN
+	1    6150 2550
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:AudioJack2 J2
@@ -396,4 +394,6 @@ F 3 "~" H 5050 5000 50  0001 C CNN
 	1    5050 5000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 2850 6050 3300
 $EndSCHEMATC
