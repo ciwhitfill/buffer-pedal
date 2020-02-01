@@ -51,5 +51,17 @@ Noise simulation results in 171.18 nV in the audio range. Even if actual circuit
 
 <img src="./images/output_referred_noise.png" width="600">
 
+## Testing
+
+<img src="./images/breadboard.jpg" width="600">
+
+When a 1 V, 1 kHz test signal is applied to the input, the buffer reproduces it at the output within the precision of the test equipment available to me.
+
+<img src="./images/scope_output.png" width="600">
+
+When overdriven, the buffer clips asymmetically, resulting in predominantly 2nd-order harmonic distortion. In guitar circuits, this is generally preferred to the odd-order distortion of amplifiers with high loop gain.
+
+<img src="./images/overdrive_waveform.png" width="600">
+<img src="./images/overdrive_fft.png" width="600">
 
 
