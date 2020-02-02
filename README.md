@@ -55,7 +55,7 @@ Noise simulation results in 171.18 nV in the audio range. Even if actual circuit
 
 <img src="./images/breadboard.jpg" width="600">
 
-When a 1 V, 1 kHz test signal is applied to the input, the buffer reproduces it at the output within the precision of the test equipment available to me.
+When a 1 V, 1 kHz test signal is applied to the input, the buffer reproduces it at the output within the precision of the test equipment available.
 
 <img src="./images/scope_output.png" width="600">
 

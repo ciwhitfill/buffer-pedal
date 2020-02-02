@@ -28,3 +28,4 @@ fp-info-cache
 # Other
 .DS_Store
 simulation/.ipynb_checkpoints/Simulation Results-checkpoint.ipynb
+.vscode
