@@ -64,4 +64,8 @@ When overdriven, the buffer clips asymmetically, resulting in predominantly 2nd-
 <img src="./images/overdrive_waveform.png" width="600">
 <img src="./images/overdrive_fft.png" width="600">
 
+### Frequency Response
+In practice, the amplifier exhibits mild roll-off of sub-bass frequencies below 30 Hz. This is well below the necessary bandwidth of a guitar amplifier. The high-end frequency response extends well above the audio band, ensuring accurate phase response.
+
+<img src="./images/measured_gain.png" width="600">
 

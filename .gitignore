@@ -29,3 +29,5 @@ fp-info-cache
 .DS_Store
 simulation/.ipynb_checkpoints/Simulation Results-checkpoint.ipynb
 .vscode
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+.ipynb_checkpoints/Frequency Response-checkpoint.ipynb
