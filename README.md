@@ -69,3 +69,6 @@ In practice, the amplifier exhibits mild roll-off of sub-bass frequencies below 
 
 <img src="./images/measured_gain.png" width="600">
 
+## Assembly
+
+<img src="./images/assembled_pcb.jpg" width="600">
